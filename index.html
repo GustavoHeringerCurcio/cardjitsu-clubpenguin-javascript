@@ -3,49 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Menu</title>
+    <link rel="stylesheet" href="menu.css">
 </head>
 <body>
-    <audio src="audios/Ninja Training - Card-Jitsu _ Club Penguin OST.mp3"></audio>
     <div id="container">
-        <div id="players">
-            <div id="box-points">
-                <div id="player-points">
-
-                </div>
-                
-                <div id="enemy-points">
-
-                </div>
-            </div>
-            <div class="fighters">
-            <img class="player1" src="images/player-gif.gif" alt="">
-            <div id="center-slot"></div>
-            <div id="center-slot2" class="card-back">
-                <div id="enemy-value" class="clone-card"></div>
-            </div>    
-            <img class="player2" src="images/sensei-gif.gif" alt="">
-            </div>
-            <div id="results">
-                <p id="result-text">Player1 ??? </p>
-                <button onclick="okButton()">OK</button>
-            </div>
+        <img class="sensei-talking" src="minigame-cardjitsu/src/images/index-diffulty/sensei-talking.gif" alt="">
+        <div class="sensei-phrase">
+            <p>To become a ninja,</p>
+            <p>You must challenge me and win.</p>
+            <p>But bring your belt </p>
         </div>
-        <div id="card-frame">
-            <div id="card-container">
-            <div id="card-player">
-                <div class="cards card-drawer" id="card1"></div>
-                <div class="cards card-drawer" id="card2"> </div>
-                <div class="cards card-drawer" id="card3"></div>
-                <div class="cards card-drawer" id="card4"></div>
-                <div class="cards card-drawer" id="card5"></div> 
+
+        <div id="options-container">
+            <div id="box-selection"> 
+                <button id="easy"><p class="difficulty-text" >Easy Challenge</p></button>
+                <button id="normal"><p class="difficulty-text">Normal Challenge</p></button>
+                <button id="hard"><p class="difficulty-text">Challenge Sensei</p></button>
             </div>
         </div>
     </div>
-        
-    
-    <script src="script.js"></script>
-    
+    <script src="menu.js"></script>
 </body>
 </html>

@@ -1,0 +1,108 @@
+@import url(https://db.onlinewebfonts.com/c/03e56e6a9578c7e735af7c4befe478f7?family=CCComicrazy+Regular);
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "CCComicrazy Regular";
+    }
+
+    body {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-color:#0079D7;
+    }
+
+    #container {
+        border: 1px solid black;
+        width: 1600px;
+        height: 900px;
+
+        background-image: url(/minigame-cardjitsu/src/images/index-diffulty/background-choose-difficulty.png);
+        background-size:cover;
+        background-repeat: no-repeat;
+        
+    }
+
+    .sensei-talking {
+        position: absolute;
+
+        width: 500px;
+        height: 700px;
+        margin-left: 240px;
+        top: -60px;
+    }
+
+    .sensei-phrase {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 700px;
+        margin-top: 30px;
+    }
+
+    .sensei-phrase p {
+        font-size: 40px;
+        font-weight: bolder;
+        filter:drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.197));
+    }
+
+    #options-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+
+        height: 600px;
+        width: 100%;
+
+    }
+
+    #box-selection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+
+        border: 3px solid black;
+
+        background-image: url(minigame-cardjitsu/src/images/index-diffulty/select-options.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+
+        margin-right: 50px;
+        margin-bottom: 50px;
+        width: 700px;
+        height: 300px;
+
+        gap: 10px;
+
+    }
+
+    #box-selection button {
+
+        display: flex;
+        margin-left: 20px;
+
+        font-size: 30px;
+
+        border: none;
+        cursor: pointer;
+        margin-right: 20px;
+        width: 87%;
+
+        background-color: transparent;
+        padding: 5px;
+    }
+
+    #box-selection button:hover {
+        background: #ffffff81;
+        transform: scale(1.01);
+    }
+
+
